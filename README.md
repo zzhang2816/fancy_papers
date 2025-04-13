@@ -15,8 +15,12 @@
   3. [X-Dyna](papers/X-Dyna.pdf) [Jan 2025] (dynamic dance generation)
   3. [Trajactory attention](papers/trajactory attention.pdf) [Nov 2024] (trajactory guided attention)
   3. [LeviTor](papers/LeviTor.pdf) [Mar 2025] (3D Trajectory)
-  3. [Extrapolating and Decoupling Image-to-Video Generation Models](papers/Extrapolating and Decoupling Image-to-Video Generation Models.pdf) [Mar 2025] (Interpolating model)
+  3. [Extrapolating and Decoupling Image-to-Video Generation Models](papers/Extrapolating and Decoupling Image-to-Video Generation Models.pdf) [Mar 2025] (Interpolating model)<span style="color:red">!</span>
   3. [Dynamic Mask Guidance](papers/Resource-Efficient Motion Control.pdf) [Mar 2025]
+  3. [ControlNeXt](papers/ControlNeXt.pdf) [Aug 2024]
+  3. [SparseCtrl](papers/SparseCtrl.pdf) [Nov 2023]
+  3. [VidSketch](papers/VidSketch.pdf) [Feb 2025]
+  3. [FACESHOT](papers/FACESHOT.pdf) [Mar 2025]
 - DIT
 
   1. [Diffusion as Shader](papers/Diffusion as Shader.pdf) [Jan 2025]
@@ -26,9 +30,11 @@
   5. [3DTrajMaster](papers/3DTRAJMASTER.pdf) [Feb 2025] (Multiple Entity 3d Trajectory)
   6. [MotionBridge](papers/MotionBridge.pdf) [Jan 2025] (Trajectory + 插值模型)
   7. [MotionCanvas](papers/MotionCanvas.pdf) [Feb 2025] (Trajectory+Box+Camera)
+  7. [MagicMotion](papers/MagicMotion.pdf) [Mar 2025] (Mask + Box)
   8. [Video Motion Transfer](papers/Video Motion Transfer with Diffusion Transformers.pdf) [Dec 2024]
   8. [FullDiT](papers/FullDiT.pdf) [Mar 2025]
   8. [Tora](papers/Tora.pdf) [Oct 2024] (Trajectory control)
+  8. [VACE](papers/VACE.pdf) [Mar 2025]
 
 ### Video Inpainting
 
@@ -36,6 +42,8 @@
 2. [DiffuEraser](papers/DiffuEraser.pdf) [Jan 2025] 专注移除任务
 2. [DynVFX](papers/DynVFX.pdf) [Feb 2025] (Adding Dynamic Object)
 2. [VideoPainter](papers/VideoPainter.pdf) [Mar 2025]
+2. [Generative Video Propagation](papers/Generative Video Propagation.pdf) [Dec 2024]
+2. [OmnimatteZero](papers/OmnimatteZero.pdf) [Mar 2025]  <span style="color:red">!!!</span>
 
 ### Video Editing
 
@@ -43,6 +51,7 @@
 1. [Taming Rectified Flow for Inversion and Editing](papers/Taming Rectified Flow for Inversion and Editing.pdf) [Nov 2024] (Editing for Rectified Flow-based model) <span style="color:red">!</span>
 1. [VideoHandles](papers/VideoHandles.pdf) [Editing object composition]
 1. [V2Edit](papers/V2Edit.pdf) [Mar 2025] <span style="color:red">!!!</span>
+1. [StyleMaster](papers/StyleMaster.pdf) [Dec 2024]
 
 ### Long Video Generation
 
@@ -60,7 +69,13 @@
 
 6. [VideoAuteur](papers/VideoAuteur.pdf) [Jan 2025] (Seed Story for the visual embedding)
 
-3. [LongDiff](papers/LongDiff.pdf) [Mar 2025] <span style="color:red">!!!</span>
+7. [LongDiff](papers/LongDiff.pdf) [Mar 2025] <span style="color:red">!!!</span>
+
+8. [RepVideo](papers/RepVideo.pdf) [Jan 2025] <span style="color:red">!!!</span> (Explore acculmulate feature)
+
+9. [RIFLEx](papers/A Free Lunch for Length Extrapolation.pdf) [Feb 2025]
+
+3. [Training-free and Adaptive Sparse Attention](papers/Training-free and Adaptive Sparse Attention.pdf) [Feb 2025]
 
 ### Customized Video Generation
 
@@ -81,38 +96,48 @@
 ### Leverage LLM/MLLM
 
 - Image
+  1. [Making LLaMA SEE and Draw with SEED Tokenizer](papers/Making LLaMA SEE and Draw with SEED Tokenizer.pdf) [Oct 2023]
   1. [Generative Multimodal Models are In-Context Learners](papers/Generative Multimodal Models are In-Context Learners.pdf) [May 2024] (Image as vision tokens)
   2. [BrushEdit](papers/BrushEdit.pdf) [Dec 2024] (similar to our SGEdit work, but with inpainting model)
   3. [EasyRef](papers/EasyRef.pdf) [Dec 2024] (LLM-style IP-adapter)
   4. [Enabling Multimodal In-Context Reasoning](papers/Enabling Multimodal In-Context Reasoning in Diffusion Models.pdf) [Feb 2025] (In-Context, Aligner connect diffusion&VLM)
   4. [DreamEngine](papers/DreamEngine.pdf) [Feb 2025] <span style="color:red">!!!</span>
+  4. [Transfer between Modalities with MetaQueries](papers/Transfer between Modalities with MetaQueries.pdf) [Apr 2025]
 - Video
   1. [CINEMA](papers/CINEMA Coherent Multi-Subject Video Generation via MLLM-Based Guidance.pdf) [Mar 2025]
   2. [Mimir](papers/Mimir.pdf) [Dec 2024] (Improve text alignment by LLM text feature)
 
-### 4D Video
+### Video Generation
 
-1. [Reangle-A-Video](papers/Reangle-A-Video.pdf) [Mar 2025] (Synchronized multi-view videos)
-2. [GS-DiT](papers/GS-DiT.pdf) [Jan 2025]
+- Autoregressive Video
+  1. [RAIN](papers/RAIN.pdf) [Dec 2024]
+  1. [StreamingT2V](papers/StreamingT2V.pdf) [Mar 2024]
+  1. [Taming Teacher Forcing for Masked Autoregressive Video Generation](papers/Taming Teacher Forcing for Masked Autoregressive Video Generation.pdf) [Jan 2025]<span style="color:red">!!!</span>
+  1. [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](papers/From Slow Bidirectional to Fast Autoregressive Video Diffusion Models.pdf) [Jan 2025]<span style="color:red">!!!</span>
+  1. [GenDoP](papers/GenDoP.pdf) [Apr 2025]
 
-### Autoregressive Video
-
-1. [RAIN](papers/RAIN.pdf) [Dec 2024]
-2. [StreamingT2V](papers/StreamingT2V.pdf) [Mar 2024]
-2. [Taming Teacher Forcing for Masked Autoregressive Video Generation](papers/Taming Teacher Forcing for Masked Autoregressive Video Generation.pdf) [Jan 2025]<span style="color:red">!!!</span>
-2. [From Slow Bidirectional to Fast Autoregressive Video Diffusion Models](papers/From Slow Bidirectional to Fast Autoregressive Video Diffusion Models.pdf) [Jan 2025]<span style="color:red">!!!</span>
+- 4D Video
+  1. [Reangle-A-Video](papers/Reangle-A-Video.pdf) [Mar 2025] (Synchronized multi-view videos)
+  2. [GS-DiT](papers/GS-DiT.pdf) [Jan 2025]
+  3. [SYNCAMMASTER](papers/SYNCAMMASTER.pdf) [Dec 2024]
+  4. [TrajectoryCrafter](papers/TrajectoryCrafter.pdf) [Mar 2025]
+  4. [GEN3C](papers/GEN3C.pdf) [Mar 2025]
+- Physical Fidelity
+  1. [Synthetic Video Enhances Physical Fidelity in Video Synthesis](papers/Synthetic Video Enhances Physical Fidelity in Video Synthesis.pdf) [Mar 2025]
 
 ### Multi-instance Generation
 
 - Image
   1. [3DIS-FLUX](papers/3DIS-FLUX.pdf) [Jan 2025] (layout -> depthmap -> image)
-  2. dd
+  2. [DreamRenderer](papers/DreamRenderer.pdf) [Mar 2025]
+  2. [CreatiLayout](papers/CreatiLayout.pdf) [Mar 2025]
 - Video
   1. [BlobGEN-Vid](papers/BlobGEN-Vid.pdf) [Jan 025]
 
 ### Image Generation
 
 - Controllable
+  1. [Uni-ControlNet](papers/Uni-ControlNet.pdf) [Oct 2023]
   1. [OminiControl](papers/OminiControl.pdf) [Nov 2024]
   2. [EasyControl](papers/EasyControl.pdf) [Mar 2025]
   3. [UniCombine](papers/UniCombine.pdf) [Mar 2025]
@@ -127,6 +152,8 @@
   1. [TextCrafter](papers/TextCrafter.pdf) [Apr 2025]
 - Distill
   1. [Distilling Diversity and Control in Diffusion Models](papers/Distilling Diversity and Control in Diffusion Models.pdf) [Mar 2025] <span style="color:red">!!!</span>
+- Transparent
+  1. [Anonymous Region Transformer](papers/Anonymous Region Transformer.pdf) [Feb 2025]
 
 ### Image Editing
 
@@ -140,7 +167,10 @@
   6. [Stable Flow](papers/Stable Flow.pdf) [Nov 2024] (PnP on DiT)
   6. [KV-Edit](papers/KV-Edit.pdf) [Feb 2025] (Modified PnP on DiT)
   6. [PhotoDoodle](papers/PhotoDoodle.pdf) [Feb 2025] (Few shot style transfer)
-  6. [DCEdit](papers/DCEdit.pdf)
+  6. [DCEdit](papers/DCEdit.pdf) [Mar 2025] (finegrain edit on DiT)
+  6. [Dereflection Any Image](papers/Dereflection Any Image.pdf) [Mar 2025] (Dereflection)
+  6. [OMNIEDIT](papers/OMNIEDIT.pdf) [Nov 2024] 
+  6. [Diffusion Restoration Adapter](papers/Diffusion Restoration Adapter.pdf) [Feb 2025]
 - Specific object manipulation/inpainting
   1. [DiffUHaul](papers/DiffUHaul.pdf) [Sep 2024]
   2. [DreamMix](papers/DreamMix Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting.pdf) [Nov 2024]
@@ -149,20 +179,29 @@
   2. [ObjectMover](papers/ObjectMover.pdf) [Mar 2025]
   6. [Personalize Anything](papers/Personalize Anything for Free with Diffusion Transformer.pdf) [Mar 2025]
   6. [OmniPaint](papers/OmniPaint.pdf) [Mar 2025]
+  6. [Large-Scale Text-to-Image Model with Inpainting](papers/Large-Scale Text-to-Image Model with Inpainting.pdf) [Nov 2024]
 - Leverage video diffusion
   1. [Pathways on the Image Manifold](papers/Pathways on the Image Manifold.pdf) [Nov 2024]
   1. [FramePainter](papers/FramePainter.pdf) [Jan 2025]
 - In-context learning
   1. [Edit Transfer](papers/Edit Transfer.pdf) [Mar 2025]  <span style="color:red">!!!</span>
   2. [ImageRAG](papers/ImageRAG.pdf) [Feb 2025] (Image In-Context Learning)
+  2. [IN-CONTEXT LORA](papers/IN-CONTEXT LORA.pdf) [Nov 2024]
+- Colorization
+  1. [ColorFlow](papers/ColorFlow.pdf) [Dec 2024]
+  2. [MangaNinja](papers/MangaNinja.pdf) [Jan 2025]
 
 ### Image Customization
 
 1. [AnyStory](papers/AnyStory.pdf) [Jan 2025] (Multiple Subject, Router)
 2. [Nested Attention](papers/Nested Attention.pdf) [Jan 2025] (Multiple concepts, utilize cross-attention)
 2. [Conceptrol](papers/Conceptrol.pdf) [Mar 2025] (IP-adapter fashion)  <span style="color:red">!!!</span>
+2. [UNO](papers/UNO.pdf) [Apr 2025] <span style="color:red">!</span>
 2. [latexblend](papers/latexblend.pdf) [Mar 2025]
 2. [Visual Persona](papers/Visual Persona.pdf) [Mar 2025]
+2. [TokenVerse](papers/TokenVerse.pdf) [Jan 2025]
+2. [FlexIP](papers/FlexIP.pdf) [Apr 2025]
+2. [Generating Multi-Image Synthetic Data for Text-to-Image Customization](papers/Generating Multi-Image Synthetic Data for Text-to-Image Customization.pdf) [Feb 2025]
 
 ### Story Generation
 
@@ -216,12 +255,15 @@
 
 ### New Architecture
 
+1. [VideoPoet](papers/VideoPoet.pdf) [Jun 2024] (LLM for Video Generation)
+1. [OmniFlow](papers/OmniFlow.pdf) [Dec 2024] (Any-to-Any Generation)
 1. [Diffusion Forcing](papers/Diffusion Forcing.pdf) [Dec 2024]<span style="color:red">!!!</span>
 2. [Diffusion Noise Condition](papers/Is Noise Conditioning Necessary for Denoising Generative Models.pdf) [Feb 2025]
 2. [Block Diffusion](papers/BLOCK DIFFUSION.pdf) [Mar 2025]
 2. [Pyramidal Flow Matching](papers/PYRAMIDAL FLOW MATCHING FOR EFFICIENT VIDEO GENERATIVE MODELING.pdf) [Mar 2025]
 2. [Unified Multimodal Discrete Diffusion ](papers/Unified Multimodal Discrete Diffusion.pdf)[Mar 2025]
 2. [Learning Visual Generative Priors without Text](papers/Learning Visual Generative Priors without Text.pdf) [Mar 2025]
+2. [Infinity: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis](papers/Infinity.pdf) [Dec 2024]
 
 ### Reward
 
@@ -231,9 +273,11 @@
 ### COT and TTS (test-time scaling)<span style="color:red">!!!</span>
 
 1. [ImageGen-CoT](papers/ImageGen-CoT.pdf) [Mar 2025]
-
 2. [GoT](papers/GoT.pdf) [Mar 2025]
 3. [Video-T1](papers/Video-T1.pdf) [Apr 2025]
+3. [Can We Generate Images with CoT](papers/Can We Generate Images with CoT.pdf) [Jan 2025]
+3. [One-Minute Video Generation with Test-Time Training](papers/One-Minute Video Generation with Test-Time Training.pdf) [Apr 2025]
+3. [Video-R1](papers/Video-R1.pdf) [Mar 2025] (Video reasoning)
 
 ### Talking Face
 
@@ -242,42 +286,50 @@
 ### Image-to-3D Scene Generation
 
 1. [PanoDreamer](papers/PanoDreamer.pdf) [Mar 2025]
+1. [MIDI](papers/MIDI.pdf) [Dec 2024]
 
 ### 3D Scene Generation
 
 1. [NuiScene](papers/NuiScene.pdf)  [Mar 2025]
 1. dd
 
-### Video-driven 3D
+### Image/Video-driven 3D
 
 1. [Animating the Uncaptured](papers/Animating the Uncaptured.pdf) [Mar 2025]
+1. [DIFIX3D+](papers/DIFIX3D+.pdf) [Mar 2025] <span style="color:red">!</span>
+
+### SVG
+
+1. [NeuralSVG](papers/NeuralSVG.pdf) [Jan 2025]
+2. [LayerTracer](papers/LayerTracer.pdf) [Feb 2025] 
 
 ### CV
 
 1. [CleanDIFT](papers/CleanDIFT.pdf) [Dec 2024] (clean diffusion features -> improve downstream tasks: e.g. segment...) <span style="color:red">!</span>
 2. [FreestyleRet](papers/FreestyleRet.pdf) [Dec 2023] (image retrieval)
 3. [Generalizable Origin Identification](papers/Generalizable Origin Identification.pdf) (Origin Identification.pdf)
+3. [spatracker](papers/spatracker.pdf) [Apr 2024] (3D point tracking)
+5. [3D Scene Flow](papers/3D Scene Flow.pdf) [2020] (3D optical flow)
+5. [DynOMo](papers/DynOMo.pdf) [Mar 2025] (4D recon)
+5. [Dynamic 3D Gaussians](papers/Dynamic 3D Gaussians.pdf) [Aug 2023] (4D recon)
 
 ### Other
 
 1. [InstantFamily](papers/InstantFamily.pdf) [Apr 2024] (Multi-Face composition)
 2. [IP-Composer](papers/IP-Composer.pdf) [Feb 2025] (Semantic Composition of Visual Concepts)
 3. [KV Cache](papers/KV Cache.pdf) [Feb 2025] (Analyse KV Cache)
-4. [LayerTracer](papers/LayerTracer.pdf) [Feb 2025] / [MakeAnything](papers/MakeAnything.pdf) ] [Feb 2025] (Generate Procedural)
+4. [MakeAnything](papers/MakeAnything.pdf) [Feb 2025] (Generate Procedural)
 5. [Light-A-Video](papers/Light-A-Video.pdf) [Feb 2025] (Video Relighting)
-6. [OmniFlow](papers/OmniFlow.pdf) [Dec 2024] (Any-to-Any Generation)
 7. [Orient Anything](papers/Orient Anything.pdf) [Dec 2024] (Predict Orientation)
 8. [SeedVR](papers/SeedVR.pdf) [Feb 2025] (Image Super-resolution)
 9. [Star](papers/Stable Flow.pdf) [Jan 2025] (Video Super-resolution)
 10. [Spotlight](papers/SPOTLIGHT.pdf) [Nov 2024] (Shadow-Guided Object Relighting)
 11. [SVDiff](papers/SVDiff Compact Parameter Space for Diffusion Fine-Tuning.pdf) [Jul 2023] (Singular Value Decomposition)
 12. [TransPixeler](papers/TransPixeler.pdf) [Jan 2025] (Transparent Video Generation)
-13. [VideoPoet](papers/VideoPoet.pdf) [Jun 2024] (LLM for Video Generation)
 14. [Visual Anagrams](papers/Visual Anagrams.pdf) [Apr 2024] (Illusion Image Generation)
 15. [DesignDiffusion](papers/DesignDiffusion.pdf) [Mar 2025] (Diffusion for Design)
 16. [Generative Photomontage](papers/Generative Photomontage.pdf) [Aug 2024] (多图融合)
 17. [MatAnyone](papers/MatAnyone.pdf) [Jan 2025] (Video Matting)
-18. [spatracker](papers/spatracker.pdf) [Apr 2024] (3D point tracking)
-19. [3D Scene Flow](papers/3D Scene Flow.pdf) [2020] (3D optical flow)
 20. [KV Cache Quantization](papers/Plug-and-Play 1.x-Bit KV Cache Quantization.pdf) [Mar 2025] (VLLM quantization)
-21. [SpatialTracker](papers/SpatialTracker.pdf) [Apr 2024] (3D point tracking)
+20. [Shining Yourself](papers/Shining Yourself.pdf) [Mar 2025] (Diffusion tryout)
+20. [FILMAGENT](papers/FILMAGENT.pdf) [Jan 2025]
