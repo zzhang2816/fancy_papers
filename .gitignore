@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 papers
 .DS_Store
+/tmp/
